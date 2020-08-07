@@ -322,4 +322,11 @@
          key usage.  This adds noticeable additional overhead to volume key processing, so
          is disableable for products for which it is irrelevant. -->
     <bool name="config_useVolumeKeySounds">false</bool>
+
+    <!-- Whether doze feature is enabled by default in settings -->
+    <bool name="config_doze_enabled_by_default">true</bool>
+
+    <!-- Whether device supports sensor based doze customizations -->
+    <bool name="config_dozePulsePickup">true</bool>
+    <bool name="config_dozePulseTilt">true</bool>
 </resources>
