@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+# GameBar Performance Overlay
+$(call inherit-product, packages/apps/GameBar/gamebar.mk)
+
 $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 
 # Setup dalvik vm configs
