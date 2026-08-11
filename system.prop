@@ -10,6 +10,11 @@ persist.vendor.cne.feature=1
 # FUSE
 persist.sys.fuse.passthrough.enable=true
 
+# Infinity
+ro.product.marketname=Redmi Note 10 Pro
+ro.infinity.soc=Snapdragon 732G
+ro.infinity.camera=108MP + 8MP + 5MP + 2MP
+
 # Media
 media.aac_51_output_enabled=true
 media.stagefright.enable-aac=true
